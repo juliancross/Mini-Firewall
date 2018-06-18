@@ -1,0 +1,35 @@
+<% include ../partials/header %>
+
+
+    <h1>Mini-Firewall</h1>
+
+    <div class="container">
+
+        <form action="/urlParams" method='get' class='input'>
+            <h3 class="welcome">Blacklist your url</h3>
+            <h5>
+                <%= result %>
+            </h5>
+            <div>
+                <input type="text" name="url" placeholder="Enter your URL" class='place'>
+            </div>
+
+            <button type="submit" class='button'>Submit</button>
+        </form>
+
+        <form action="/url" method='post'>
+            <h3 class="welcome">Check if your url is blacklisted</h3>
+            <h5>
+                <%= result2 %>
+            </h5>
+            <div>
+                <input type="text" name="check" placeholder="Check your URL" class='place'>
+            </div>
+
+            <button type="submit" class='button'>Submit</button>
+        </form>
+
+
+    </div>
+
+    <% include ../partials/footer %>

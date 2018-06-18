@@ -1,0 +1,71 @@
+/*** INDEX TEMPLATE ***/
+
+.adlooxLogo,
+.input,
+.button {
+    display: table;
+    margin: 50px auto;
+}
+
+.place {
+    width: 500px;
+    text-align: center;
+    height: 30px;
+    margin-bottom: 30px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+.welcome {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 100px;
+    color: blue;
+}
+
+h5 {
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    background: orange;
+    border-radius: 25px;
+    border: none;
+}
+
+.container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+}
+
+
+/*** FIREWALL TEMPLATE ***/
+
+.firewallTitle {
+    display: table;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.firewallTitle+a {
+    text-align: center;
+    color: purple;
+    text-decoration: underline;
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+li {
+    list-style: none;
+    ;
+}

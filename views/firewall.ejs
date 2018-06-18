@@ -1,0 +1,18 @@
+<% include ../partials/header %>
+
+    <h1 class='firewallTitle'>Firewall</h1>
+    <a href="/" class='back'>Home</a>
+    <div class="url">
+        <% for (var i = 0; i < result.length; i++) { %>
+            <ul>
+                <li>
+                    URL :
+                    <%= result[i].url %>
+                </li>
+
+            </ul>
+            <% } %>
+    </div>
+
+
+    <% include ../partials/footer %>

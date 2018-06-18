@@ -1,0 +1,24 @@
+{
+    "name": "adloox",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon server.js",
+        "start": "node_modules/.bin/nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "express": "^4.16.3"
+    },
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "ejs": "^2.6.1",
+        "mongo-express": "^0.44.0",
+        "mongodb": "^2.2.33",
+        "nodemon": "^1.17.5",
+        "path": "^0.12.7"
+    }
+}
